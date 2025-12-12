@@ -1158,3 +1158,4 @@ Wifite2 is actively maintained and welcomes contributions! Here's how you can he
 ---
 
 **⚠️ Legal Disclaimer:** This tool is for educational and authorized testing purposes only. Only use on networks you own or have explicit permission to test. Unauthorized access to computer networks is illegal.
+# wifite2-advanced-enhancements
