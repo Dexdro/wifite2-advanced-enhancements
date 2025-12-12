@@ -1153,6 +1153,7 @@ Wifite2 is actively maintained and welcomes contributions! Here's how you can he
 * Translate documentation to other languages
 
 **Maintainer:** [@kimocoder](https://github.com/kimocoder)
+**maintainer:** [@Dexdro](https://github.com/Dexdro)
 **Original Author:** [@derv82](https://github.com/derv82)
 
 ---
