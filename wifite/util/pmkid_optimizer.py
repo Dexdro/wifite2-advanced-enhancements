@@ -80,12 +80,12 @@ class PMKIDOptimizer:
         Returns interval in seconds.
         """
         if bssid not in self.captures:
-            return Configuration.pmkid_extraction_interval or 5.0
+            return getattr(Configuration, 'pmkid_extraction_interval', None) or 5.0
         
         capture = self.captures[bssid]
         
         # Base interval from config (default 5 seconds)
-        base_interval = Configuration.pmkid_extraction_interval or 5.0
+        base_interval = getattr(Configuration, 'pmkid_extraction_interval', None) or 5.0
         
         # Healthy captures: Use aggressive 3-5 second intervals
         if capture.is_healthy and capture.consecutive_failures == 0:
